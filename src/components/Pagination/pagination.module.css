@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.selectBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  color: white;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.select {
+  background-color: #333;
+  display: block;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.pagesInfo {
+  margin: 0 4px;
+  font-size: 16px;
+}
